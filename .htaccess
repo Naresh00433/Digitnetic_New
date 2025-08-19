@@ -1,0 +1,16 @@
+RewriteEngine on
+
+# Ensure the request is not for an actual file or directory before rewriting
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Rewrite blog post URLs before removing extensions
+RewriteRule ^blog/([^/]+)$ blog.php?slug=$1 [L,QSA]
+
+# Remove .php extension for all files except blog.php
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteCond %{REQUEST_URI} !^/blog/
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+# Redirect /blog to /blogs to avoid directory issue
+RewriteRule ^blog/$ /blogs [R=301,L]
