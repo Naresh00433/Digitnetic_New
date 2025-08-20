@@ -32,9 +32,9 @@
 
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="service">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 700px;">
                 <p class="fs-5 fw-medium text-primary">Our Services</p>
                 <h1 class="display-5 mb-5">Digital Marketing Services that We Offer</h1>
             </div>
@@ -47,55 +47,7 @@
                                 <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
                             </div>
                             <h5 class="mb-3">Affiliate Program Management</h5>
-                                <p class="mb-0">End-to-end affiliate management for seamless growth and performance tracking.</p>
-                        </div>
-                        <div class="service-btn rounded-0 rounded-bottom">
-                            <a class="text-primary fw-medium" href="#">Read More<i
-                                    class="bi bi-chevron-double-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item position-relative h-100">
-                        <div class="service-text rounded p-5">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-4"
-                                style="width: 64px; height: 64px;">
-                                <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
-                            </div>
-                            <h5 class="mb-3">Affiliate Recruitment and Onboarding</h5>
-                                <p class="mb-0">High-quality affiliates, seamless onboarding, and a strong network built.</p>
-                        </div>
-                        <div class="service-btn rounded-0 rounded-bottom">
-                            <a class="text-primary fw-medium" href="#">Read More<i
-                                    class="bi bi-chevron-double-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item position-relative h-100">
-                        <div class="service-text rounded p-5">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-4"
-                                style="width: 64px; height: 64px;">
-                                <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
-                            </div>
-                            <h5 class="mb-3">Performance Tracking and Analytics</h5>
-                                <p class="mb-0">Unlock insights for optimal results and performance-driven strategies</p>
-                        </div>
-                        <div class="service-btn rounded-0 rounded-bottom">
-                            <a class="text-primary fw-medium" href="#">Read More<i
-                                    class="bi bi-chevron-double-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item position-relative h-100">
-                        <div class="service-text rounded p-5">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-4"
-                                style="width: 64px; height: 64px;">
-                                <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
-                            </div>
-                            <h5 class="mb-3">Customized Affiliate Campaigns</h5>
-                                <p class="mb-0">Custom campaigns: Engage the audience, boost conversions, and align with your brand</p>
+                            <p class="mb-0">End-to-end affiliate management for seamless growth and performance tracking.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="#">Read More<i
@@ -111,7 +63,7 @@
                                 <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
                             </div>
                             <h5 class="mb-3">Affiliate Training and Support</h5>
-                                <p class="mb-0">Empower affiliates: Boost performance, and inspire excellence with expert guidance.</p>
+                            <p class="mb-0">Empower affiliates: Boost performance, and inspire excellence with expert guidance.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="#">Read More<i
@@ -127,7 +79,55 @@
                                 <img class="img-fluid" src="img/icon/icon-10.png" alt="Icon">
                             </div>
                             <h5 class="mb-3">Reporting and ROI analysis</h5>
-                                <p class="mb-0">Data-driven reports measure affiliate marketing success and inform strategic decisions.</p>
+                            <p class="mb-0">Data-driven reports measure affiliate marketing success and inform strategic decisions.</p>
+                        </div>
+                        <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="text-primary fw-medium" href="#">Read More<i
+                                    class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4"
+                                style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-3">Affiliate Recruitment and Onboarding</h5>
+                            <p class="mb-0">High-quality affiliates, seamless onboarding, and a strong network built.</p>
+                        </div>
+                        <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="text-primary fw-medium" href="#">Read More<i
+                                    class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4"
+                                style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-3">Performance Tracking and Analytics</h5>
+                            <p class="mb-0">Unlock insights for optimal results and for better performance-driven strategies</p>
+                        </div>
+                        <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="text-primary fw-medium" href="#">Read More<i
+                                    class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-4"
+                                style="width: 64px; height: 64px;">
+                                <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                            </div>
+                            <h5 class="mb-3">Customized Affiliate Campaigns</h5>
+                            <p class="mb-0">Custom campaigns: Engage the audience, boost conversions, and align with your brand</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="#">Read More<i

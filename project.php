@@ -32,12 +32,12 @@
 
 
     <!-- Project Start -->
-    <div class="container-xxl pt-5">
+    <div class="container-xxl pt-5" id="blog">
         <div class="container">
             <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
-                style="max-width: 500px;">
-                <p class="fs-5 fw-medium text-primary">Our Projects</p>
-                <h1 class="display-5 mb-5">We've Done Lot's of Awesome Projects</h1>
+                style="max-width: 700px;">
+                <p class="fs-5 fw-medium text-primary">Our Blogs</p>
+                <h1 class="display-5 mb-5">Delve into our blog and discover valuable insights!</h1>
             </div>
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-item mb-5">

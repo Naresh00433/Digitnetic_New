@@ -33,7 +33,7 @@
     <!-- Contact Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 700px;">
                 <p class="fs-5 fw-medium text-primary">Contact Us</p>
                 <h1 class="display-5 mb-5">If You Have Any Query, Please Contact Us</h1>
             </div>
