@@ -75,10 +75,11 @@
     font-weight: normal;
 }
 
-
 /*** Navbar ***/
 .sticky-top {
     top: -100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition: .5s;
 }
 

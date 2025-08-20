@@ -30,7 +30,7 @@
                                     </p>
                                     <h2 class="display-3 text-white mb-4 animated slideInRight">Unleash Your Earning Potential: Join Our Affiliate Marketing Network</h2>
                                     <a href="contact"
-                                        class="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">Contact Today</a>
+                                        class="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">Get Started Today</a>
                                 </div>
                             </div>
                         </div>
@@ -269,10 +269,10 @@
     <!-- Project Start -->
     <div class="container-xxl pt-5" id="blog">
         <div class="container">
-            <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
+            <div class="text-center text-md-center mx-auto pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
                 style="max-width: 700px;">
                 <p class="fs-5 fw-medium text-primary">Our Blogs</p>
-                <h1 class="display-5 mb-5">Delve into our blog and discover valuable insights!</h1>
+                <h1 class="display-5 mb-5 text-center">Delve Into Our Blog and Discover Valuable Insights!</h1>
             </div>
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-item mb-5">
@@ -281,8 +281,8 @@
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-1.jpg"
                                 data-lightbox="project"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
-                                    class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="">
+                                <i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="p-4">
@@ -476,7 +476,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl pt-5">
+    <!-- <div class="container-xxl pt-5">
         <div class="container">
             <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
                 style="max-width: 500px;">
@@ -514,7 +514,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
     <?php include 'pre/footer.php'; ?>

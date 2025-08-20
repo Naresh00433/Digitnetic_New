@@ -4,7 +4,7 @@
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
                 <a href="index" class="d-flex align-items-center mb-4">
-                    <img src="img/logo.png" alt="Digitnetic Logo" style="height:40px; width:auto; margin-right:10px;">
+                    <img src="img/DIGI LOGO.png" alt="Digitnetic Logo" style="height:70px; width:auto; margin-right:10px;">
                     <!-- <h2 class="text-white fw-bold m-0">Digitnetic</h2> -->
                 </a>
                 <p class="mb-2">Performance marketing is the act of promoting and selling products and services by leveraging online marketing.</p>
@@ -21,7 +21,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-4">Our Office</h4>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>P - 401 Logix Blossom County Sector - 137 Noida, Gautam Budh Nagar- 201301 ( UP)</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Nukleus Coworking & Managed Offices, 29, Sector 142, Noida, Uttar Pradesh 201304</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91-999 044 4673</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@digitneticit.com</p>
                 
@@ -54,12 +54,8 @@
 <div class="container-fluid copyright py-4">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <div class="col-md-6 text-center mx-auto mb-3 mb-md-0">
                 &copy; <a class="fw-medium text-light" href="#">2025 Digitnetic</a>, All Right Reserved.
-            </div>
-            <div class="col-md-6 text-center text-md-end">
-                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                Designed By <a class="fw-medium text-light" href="#">Naresh</a>
             </div>
         </div>
     </div>

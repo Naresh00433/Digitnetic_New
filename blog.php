@@ -17,13 +17,13 @@ include 'pre/db_config.php';
 // $post = $stmt->fetch(PDO::FETCH_ASSOC);
 
 // If post not found, redirect to blogs page
-if (!$post) {
-    header('Location: blogs');
-    exit();
-}
+// if (!$post) {
+//     header('Location: blogs');
+//     exit();
+// }
 
 // Format the post date
-$post_date = date('F d, Y', strtotime($post['created_at']));
+// $post_date = date('F d, Y', strtotime($post['created_at']));
 
 // Update recent posts query
 $recent_stmt = $conn->prepare("
@@ -40,8 +40,8 @@ $recent_stmt = $conn->prepare("
     ORDER BY created_at DESC 
     LIMIT 3
 ");
-$recent_stmt->execute([$post_slug]);
-$recent_posts = $recent_stmt->fetchAll(PDO::FETCH_ASSOC);
+// $recent_stmt->execute([$post_slug]);
+// $recent_posts = $recent_stmt->fetchAll(PDO::FETCH_ASSOC);
 
 // Get categories with post count as
 $cat_stmt = $conn->prepare("
@@ -64,8 +64,7 @@ $categories = $cat_stmt->fetchAll(PDO::FETCH_ASSOC);
 <html lang="en">
 
 <?php
-include '_pre/header.php';
-head($post['title']);
+include 'pre/header.php';
 ?>
 <link rel="stylesheet" href="css/blog.css">
 

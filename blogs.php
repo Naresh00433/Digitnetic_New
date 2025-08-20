@@ -69,18 +69,18 @@
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <span class="blog-category">Category Name</span>
+                        <span class="blog-category">Analytics</span>
                         <div style="height: 240px; overflow: hidden;">
                             <img class="card-ing-top img-fluid" src="img/project-1.jpg" alt="">
                         </div>
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-1.jpg"
                                 data-lightbox="project"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
                                     class="fa fa-link"></i></a>
                         </div>
                     </div>
-                    <a href="">
+                    <a href="#">
                         <div class="card-body d-flex flex-column">
                             <h3 class="card-title h5">Data Analytics & Insights</h3>
                             <div class="blog-meta">
@@ -88,7 +88,7 @@
                                 <span class="mx-2">•</span>
                                 <span><i class="far fa-user"></i> Author Name</span>
                             </div>
-                            <p class="card-text flex-grow-1">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</p>
+                            <p class="card-text flex-grow-1 text-dark">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</p>
                             <span class="read-more text-primary mt-auto">
                                 Read More <i class="fas fa-arrow-right ml-2"></i>
                             </span>
@@ -97,48 +97,87 @@
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="img/project-2.jpg" alt="">
+                        <span class="blog-category">Marketing</span>
+                        <div style="height: 240px; overflow: hidden;">
+                            <img class="card-ing-top img-fluid" src="img/project-2.jpg" alt="">
+                        </div>
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-2.jpg"
                                 data-lightbox="project"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
                                     class="fa fa-link"></i></a>
                         </div>
                     </div>
-                    <div class="p-4">
-                        <a class="d-block h5" href="">Marketing Content Strategy</a>
-                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
-                    </div>
+                    <a href="#">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">Marketing Content Strategy</h3>
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar-alt"></i> February 15, 2023</span>
+                                <span class="mx-2">•</span>
+                                <span><i class="far fa-user"></i> Jane Doe</span>
+                            </div>
+                            <p class="card-text flex-grow-1 text-dark">Discover how to create compelling marketing content that drives engagement and growth.</p>
+                            <span class="read-more text-primary mt-auto">
+                                Read More <i class="fas fa-arrow-right ml-2"></i>
+                            </span>
+                        </div>
+                    </a>
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <span class="blog-category">Business</span>
+                        <div style="height: 240px; overflow: hidden;">
+                            <img class="card-ing-top img-fluid" src="img/project-3.jpg" alt="">
+                        </div>
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-3.jpg"
                                 data-lightbox="project"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
                                     class="fa fa-link"></i></a>
                         </div>
                     </div>
-                    <div class="p-4">
-                        <a class="d-block h5" href="">Business Target Market</a>
-                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
-                    </div>
+                    <a href="#">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">Business Target Market</h3>
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar-alt"></i> March 10, 2023</span>
+                                <span class="mx-2">•</span>
+                                <span><i class="far fa-user"></i> John Smith</span>
+                            </div>
+                            <p class="card-text flex-grow-1 text-dark">Learn how to identify and reach your ideal business target market for maximum impact.</p>
+                            <span class="read-more text-primary mt-auto">
+                                Read More <i class="fas fa-arrow-right ml-2"></i>
+                            </span>
+                        </div>
+                    </a>
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="img/project-4.jpg" alt="">
+                        <span class="blog-category">Social</span>
+                        <div style="height: 240px; overflow: hidden;">
+                            <img class="card-ing-top img-fluid" src="img/project-4.jpg" alt="">
+                        </div>
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-4.jpg"
                                 data-lightbox="project"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="#"><i
                                     class="fa fa-link"></i></a>
                         </div>
                     </div>
-                    <div class="p-4">
-                        <a class="d-block h5" href="">Social Marketing Strategy</a>
-                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
-                    </div>
+                    <a href="#">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">Social Marketing Strategy</h3>
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar-alt"></i> April 05, 2023</span>
+                                <span class="mx-2">•</span>
+                                <span><i class="far fa-user"></i> Emily Clark</span>
+                            </div>
+                            <p class="card-text flex-grow-1 text-dark">Explore effective social marketing strategies to boost your brand presence online.</p>
+                            <span class="read-more text-primary mt-auto">
+                                Read More <i class="fas fa-arrow-right ml-2"></i>
+                            </span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
