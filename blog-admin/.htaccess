@@ -1,0 +1,15 @@
+RewriteEngine on
+
+# Remove .php extension for all files except blog.php
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteCond %{REQUEST_URI} !^/blog/
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+# Redirect /blog to /blogs to avoid directory issue
+RewriteRule ^blog/$ /blogs [R=301,L]
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} ^(POST) [NC]
+    RewriteRule .* - [L]
+</IfModule>

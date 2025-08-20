@@ -16,11 +16,11 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header wow fadeIn shadow-sm" data-wow-delay="0.1s">
+    <!-- <div class="container-fluid page-header wow fadeIn shadow-sm" data-wow-delay="0.1s">
         <div class="container text-center py-5 ">
             <h1 class="display-2 text-dark mb-4 animated slideInDown">About Us</h1>
         </div>
-    </div>
+    </div> -->
     <!-- Page Header End -->
 
 

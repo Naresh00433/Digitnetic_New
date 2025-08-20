@@ -1,0 +1,147 @@
+.blog-header {
+    background: linear-gradient(rgb(255 255 255 / 70%), rgb(226 226 226 / 70%)), url(images/backgrounds/blog-header.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+}
+
+.blog-card {
+    border: 1px solid #eee;
+    /* Added border */
+    transition: transform 0.3s;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 15px rgba(213, 213, 213, 0.1);
+    position: relative;
+    /* For category badge positioning */
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-card .card-img-top {
+    height: 240px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.blog-card:hover .card-img-top {
+    transform: scale(1.03);
+}
+
+.blog-card .card-body {
+    padding: 25px;
+}
+
+.blog-meta {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.blog-meta i {
+    margin-right: 5px;
+}
+
+.blog-category {
+    background: #f8f9fa;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #495057;
+    position: absolute;
+    /* Category badge overlay */
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.read-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    transition: gap 0.3s;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.read-more:hover {
+    gap: 12px;
+    text-decoration: none;
+}
+
+.featured-post {
+    position: relative;
+    overflow: hidden;
+}
+
+.featured-post .card-img-top {
+    height: 400px;
+}
+
+.blog-search {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); */
+    /* margin-bottom: 30px; */
+}
+
+.blog-categories {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.category-pill {
+    padding: 8px 20px;
+    background: #f8f9fa;
+    border-radius: 25px;
+    color: #495057;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.category-pill:hover {
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+.category-pill.active {
+    background: #007bff;
+    color: white;
+}
+
+.pagination {
+    margin-bottom: 0;
+}
+
+.pagination .page-link {
+    border: none;
+    padding: 10px 20px;
+    color: #495057;
+    transition: all 0.3s;
+    border-radius: 25px;
+    margin: 0 5px;
+}
+
+.pagination .page-link:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: transparent;
+}

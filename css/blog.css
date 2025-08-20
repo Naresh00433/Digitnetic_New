@@ -1,0 +1,49 @@
+.post-header {
+    background: linear-gradient(rgb(255 255 255 / 70%), rgb(226 226 226 / 70%)), url(images/backgrounds/blog-header.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    color: darkblue;
+}
+
+.post-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+}
+
+.post-meta {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar-card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+.recent-post {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.recent-post:last-child {
+    border: none;
+}
+
+.category-link {
+    display: block;
+    padding: 8px 15px;
+    color: #444;
+    transition: all 0.3s;
+    border-radius: 4px;
+}
+
+.category-link:hover {
+    background: #f8f9fa;
+    text-decoration: none;
+    color: #007bff;
+}

@@ -28,21 +28,21 @@
             </div>
             <div class="col-lg-2 col-md-6">
                 <h4 class="text-white mb-4">Quick Links</h4>
-                <a class="btn btn-link" href="">About Us</a>
-                <a class="btn btn-link" href="">Contact Us</a>
-                <a class="btn btn-link" href="">Our Services</a>
-                <a class="btn btn-link" href="">Terms & Condition</a>
-                <a class="btn btn-link" href="">Support</a>
+                <a class="btn btn-link" href="about">About Us</a>
+                <a class="btn btn-link" href="contact">Contact Us</a>
+                <a class="btn btn-link" href="service">Our Services</a>
+                <a class="btn btn-link" href="#">Terms & Condition</a>
+                <a class="btn btn-link" href="#">Support</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-4">Newsletter</h4>
                 <p>Subscribe to our newsletter for the latest updates and offers.</p>
-                <div class="position-relative w-100">
-                    <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                        placeholder="Your email">
-                    <button type="button"
+                <form action="submissions/process_newsletter.php" method="POST" class="position-relative w-100">
+                    <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="email" name="email"
+                        placeholder="Your email" required>
+                    <button type="submit"
                         class="btn btn-light py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                </div>
+                </form>
             </div>
         </div>
     </div>

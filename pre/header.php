@@ -7,16 +7,22 @@
                     <!-- <h2 class="text-white fw-bold m-0">Digitnetic</h2> -->
                 </a>
                 <div class="ms-auto d-flex align-items-center">
-                    <small class="ms-4"><i class="fa fa-envelope me-3"></i>info@digitnetic.com</small>
-                    <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>+91-9990 444 673</small>
-                    <div class="ms-3 d-flex">
+                    <small class="ms-4">
+                        <i class="fa fa-envelope me-3"></i>
+                        <a href="mailto:info@digitnetic.com" class="text-white text-decoration-none">info@digitnetic.com</a>
+                    </small>    
+                    <small class="ms-4">
+                        <i class="fa fa-phone-alt me-3"></i>
+                        <a href="tel:+919990444673" class="text-white text-decoration-none">+91-9990 444 673</a>
+                    </small>
+                    <!-- <div class="ms-3 d-flex"> 
                         <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href="#"><i
                                 class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href="#"><i
                                 class="fab fa-twitter"></i></a>
                         <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href="#"><i
                                 class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -42,7 +48,7 @@
                         ?>
                         <a href="index" class="nav-item nav-link <?php echo ($currentPage == 'index') ? 'active' : ''; ?>">Home</a>
                         <a href="service" class="nav-item nav-link <?php echo ($currentPage == 'service') ? 'active' : ''; ?>">Our Services</a>
-                        <a href="project" class="nav-item nav-link <?php echo ($currentPage == 'project') ? 'active' : ''; ?>">Blogs</a>
+                        <a href="blogs" class="nav-item nav-link <?php echo ($currentPage == 'blogs') ? 'active' : ''; ?>">Blogs</a>
                         <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle <?php echo in_array($currentPage, ['feature', 'team', 'testimonial', 'quote', '404']) ? 'active' : ''; ?>" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
@@ -57,7 +63,7 @@
                         <a href="contact" class="nav-item nav-link <?php echo ($currentPage == 'contact') ? 'active' : ''; ?>">Contact</a>
                     </div>
                     <div class="ms-auto d-none d-lg-block">
-                        <a href="" class="btn btn-primary rounded-pill py-2 px-3">Get A Quote</a>
+                        <a href="contact" class="btn btn-primary rounded-pill py-2 px-3">Get A Quote</a>
                     </div>
                 </div>
             </nav>
